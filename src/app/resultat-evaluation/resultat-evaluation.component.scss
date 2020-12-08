@@ -1,0 +1,160 @@
+// .evalTop{
+//   // margin-top: 2px;
+//   // margin-left: 8px;
+//   // border : 2px solid red;
+// }
+
+
+.evalID{
+  height: 100%;
+  margin-top: 1.8%;
+  margin-left: 8%;
+  border: 2px solid #707070;
+  padding-right: 2%;
+  padding-left: 2.5%;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 5px -1px #8e8e8e;
+  -moz-box-shadow: 3px 3px 5px -1px #8e8e8e;
+  box-shadow: 3px 3px 5px -1px #8e8e8e;
+}
+
+.nomEntreprise{
+  font-size: large;
+  color: #616161;
+  margin-left: 4px;
+}
+
+.registerEvaluation{
+  margin-top: 2%;
+}
+
+.saveEvaluationButton{
+  padding-top: 5px;
+  font-size: medium;
+}
+
+.savedEvaluationButton{
+  padding-top: 5px;
+  font-size: large;
+  color: green;
+}
+
+.downloadEvaluationButton{
+  padding-top: 5px;
+  font-size: medium;
+}
+
+.saveEvaluationButton:hover{
+  // padding-top: 5px;
+  font-size: large;
+  color: rgb(29, 120, 159);
+  cursor: pointer;
+}
+
+.downloadEvaluationButton:hover{
+  // padding-top: 5px;
+  font-size: large;
+  color: rgb(29, 120, 159);
+  cursor: pointer;
+}
+
+
+//ICones
+.material-icons {
+  vertical-align: middle;
+  padding-bottom: 7px;
+  padding-right: 7px;
+  font-size: 18px;
+  // display: inline-flex;
+}
+
+
+.evalContent{
+  margin-top: 2%;
+}
+
+// .collapsablePannel{
+//   max-height: 150px;
+// }
+
+
+.evaluationSection{
+  margin-top: 1%;
+  // align-self: center;
+  border: 2px solid #707070;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 5px -1px #8e8e8e;
+  -moz-box-shadow: 3px 3px 5px -1px #8e8e8e;
+  box-shadow: 3px 3px 5px -1px #8e8e8e;
+}
+
+
+
+.nomCategorie{
+  font-size: xx-large;
+  margin-top: 2%;
+  color: #707070;
+  font-weight: 400;
+}
+
+.categoriePreconisation{
+  margin-top: 2%;
+  color: #707070;
+
+}
+
+
+
+
+.mat-expansion-panel{
+  height: 50%;
+}
+
+
+// ::ng-deep mwl-gauge {
+//     width: 200px;
+//     // height: 150px;
+//     display: block;
+//     padding: 10px;
+//   }
+// ::ng-deep mwl-gauge > .gauge > .dial {
+//     stroke: #eee;
+//     stroke-width: 3;
+//     fill: rgba(0,0,0,0);
+//   }
+// ::ng-deep mwl-gauge > .gauge > .value {
+//     stroke: rgb(255, 174, 0);
+//     stroke-width: 5;
+//   }
+// ::ng-deep mwl-gauge > .gauge > .value-text {
+//     fill:  rgb(255, 174, 0);
+//     // font-family: sans-serif;
+//     // font-weight: bold;
+//     font-size: 2em;
+//   }
+  
+//   ::ng-deep .jauge-red mwl-gauge {
+//     width: 200px;
+//     // height: 150px;
+//     display: block;
+//     padding: 10px;
+//   }
+// ::ng-deep .jauge-red mwl-gauge > .gauge > .dial {
+//     stroke: #eee;
+//     stroke-width: 4;
+//     fill: rgba(0,0,0,0);
+//   }
+// ::ng-deep .jauge-red mwl-gauge > .gauge > .value {
+//     stroke: rgb(255, 47, 47);
+//     stroke-width: 6;
+//   }
+// ::ng-deep .jauge-red mwl-gauge > .gauge > .value-text {
+//     fill: rgb(255, 47, 47);
+//     // font-family: sans-serif;
+//     // font-weight: bold;
+//     font-size: 2em;
+//   }
+  
+// .categ1{
+//     border: 5px;
+// }

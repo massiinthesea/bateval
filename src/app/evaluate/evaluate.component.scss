@@ -1,0 +1,224 @@
+.categorieTitle{
+    // margin-right: 10%;
+    // margin-left: 10%;
+    margin-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:1%;
+    // background-color: red;
+    color:white;
+}
+
+.categorieDescription{
+    margin-top: 2%;
+}
+
+
+
+.allQuestions{
+    margin-top: 2%;   
+    text-align: center; 
+}
+
+
+// Taille min et max des entrées
+.questionMatFormField{
+    
+    min-width: 600px;
+    // max-width: 700px;
+    // width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .fullStepper{
+//     margin-left: 2%;
+//     background-color: #ffffff;
+//     margin-top: 1%;
+//     margin-right: 2%;
+// }
+
+
+// //Couleur catégories stepper non actives
+// ::ng-deep .mat-step-label{
+//     color: #b8b8b892 !important;
+// }
+
+// // Catégorie sélectionnée dans stepper
+// ::ng-deep div.mat-step-label.mat-step-label-active.mat-step-label-selected{
+//     color: #ff8300 !important;
+//     font-size: x-large;
+// }
+
+
+// // mat-icon-stepper selected color change 
+// ::ng-deep .mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit {
+//     background-color:  #ff8300!important;
+// }
+
+
+// //Background inputs et selects
+// ::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+//     background: rgb(255, 255, 255);
+// }
+
+// //Couleur label quand selectionné
+// ::ng-deep .mat-focused .mat-form-field-label {
+//     /*change color of label*/
+//     color: rgb(0, 12, 240) !important;
+// }
+
+
+
+// // Taille min et max des entrées
+// .questions-container{
+//     // min-width: 150px;
+//     // max-width: 700px;
+//     width: 40%;
+// }
+
+// .questions-container ~ .questions-container{
+//     margin-right: 90px;
+// }
+
+// .nextButton{
+//     color:#000000;
+//     background-color: #ff8300;
+
+//     font-weight: inherit;;
+//     width: 20%;
+//     // margin-left: 60px;
+    
+// }
+
+
+// .backButton{
+//     color: #cfddff;
+//     background-color: #000000;
+//     width: 20%;
+//     margin-right: 60%;
+// }
+
+// .mat-radio-button ~ .mat-radio-button {
+//     margin-left: 16px;
+//   }
+
+// .allForm{
+//     width:100%;
+// }
+
+
+
+// //   .question-full-width {
+// //     width: 100%;
+// //   }
+
+//   // Couleur inputs selects non selectionné
+//   ::ng-deep    .mat-form-field-label{
+//     color:rgb(131, 131, 131) !important;
+//     font-size: large !important;
+//   }
+  
+
+
+//      /*change color of underline when focused*/
+//   ::ng-deep.mat-form-field-ripple {
+//    background-color: rgb(248, 0, 0) !important;
+//   }
+
+
+// //   ::ng-deep   .mat-form-field-underline{
+// //     background-color:rgb(88, 71, 71) !important;
+// //   }
+// // .mat-step-icon{
+// //     display: none;
+// // }
+
+// #categoriesSpinner{
+//     margin-top: 20%;
+//     margin-left: 20%;
+// }
+
+
+
+
+// .YesNoQuestionLabel{
+//     color:rgb(0, 0, 70) !important;
+//     width: 100%;
+//     padding-left: 2%;
+// }
+
+// .YesNoQuestionResponsesGroup{
+//     color:rgb(0, 0, 70) !important;
+//     margin-left: 4%;
+//     // background-color: rgb(150, 173, 226);;
+    
+// }
+
+// ::ng-deep .mat-radio-outer-circle {
+//     color:rgb(0, 0, 70) !important;
+// }
+
+// ::ng-deep  .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle{
+//     border-color: #ff8300;
+// }
+
+// ::ng-deep  .mat-radio-button.mat-accent .mat-radio-inner-circle{
+//     background-color: #ff8300;
+// }
+
+// .YesNoQuestionContainer{
+//     margin-bottom: 3%;
+//     padding-top: 1%;
+//     background-color: rgb(150, 173, 226);
+//     border-radius: 6px 6px 0% 0%;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+<div class="allHeader">
+    <div class="row">
+        <div class="col col-lg-12" style="text-align: center;">
+            <img class="bateval_logo" routerLink="/" src="assets/logo.png">
+        </div>
+    </div>
+
+    <div class="row homebutton">
+        <div class="col buttonHover" id="homeButton"  routerLink="/Accueil">
+            <button type="button" class="btn allbuttons btn-lg">
+                <span class="material-icons">
+                    home
+                </span>
+                Accueil</button>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col buttonHover"  id="evaluateButton"  routerLink="/Evaluer">
+            <button type="button" class="btn allbuttons btn-lg">
+                <span class="material-icons">
+                    assignment
+                </span>
+                Evaluer</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col buttonHover"  id="historyButton"  routerLink="/ResultatEvaluation">
+            <button type="button"class="btn allbuttons btn-lg">
+                <span class="material-icons">
+                    history
+                </span>
+                Historique
+            </button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col buttonHover" id="contactButton">
+            <button type="button" class="btn allbuttons btn-lg">
+                <span class="material-icons">
+                    alternate_email
+                </span>
+                Contact
+            </button>
+        </div>
+    </div>
+
+    <!-- <mat-slide-toggle (click)="changeTheme()">Changer de thème!</mat-slide-toggle> -->
+
+
+
+
+    <div class="row profileName">
+        <div class="col col-lg-10 offset-md-1" *ngIf="connected">
+            <span class="allbuttons">
+                Bitous
+            </span>
+        </div>
+    </div>
+
+    <div class="row" *ngIf="admin">
+        <div class="col col-lg-12" *ngIf="connected" routerLink="/GererQuestions">
+            <button type="button" class="btn btn-lg gestionQuestions">
+                <span class="material-icons">
+                    settings
+                </span>
+                Gérer les questions</button>
+        </div>
+    </div>
+
+    <div class="row connectionDeconnectionButton">
+        <div class="col col-lg-10 offset-md-1">
+            <button type="button" class="btn allbuttons btn-lg" *ngIf="connected" (click)="connected=!connected">
+                <span class="material-icons">
+                    power_settings_new
+                </span>
+                Se déconnecter
+            </button>
+            <button type="button" class="btn allbuttons btn-lg" *ngIf="!connected" (click)="connected=!connected">
+                <span class="material-icons">
+                    login
+                </span>
+                Se connecter
+            </button>
+        </div>
+    </div>
+
+    <!-- <div class="row footer">
+        <div class="col col-lg-10 offset-md-1">
+            <button type="button" id="contactButton" class="btn allbuttons btn-lg" (click)="collapseLeftClick()">
+                <span class="material-icons" style="transform: rotateX();">
+                  double_arrow
+                </span>
+                Fermer le menu
+            </button>
+        </div>
+    </div> -->
+
+
+    <!-- <div class="row footer ">
+          <div class="col col-lg-12">
+              Une application de la <a href="https://www.capeb.fr/">CAPEB®</a>
+          </div>
+      </div> -->
+
+      <!-- <span style="color: white; vertical-align: bottom;">Une réalisation de la MIAGE</span> -->
+
+</div>

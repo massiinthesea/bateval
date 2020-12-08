@@ -1,0 +1,49 @@
+.pageTitle{
+    text-align: center;
+    margin-top: 4%;
+    font-size: xx-large;
+    background-color: rgb(96, 149, 255);
+    padding: 1%;
+    color: white;
+}
+
+.addRemoveButtons{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.addText{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(13, 160, 13); 
+}
+
+.removeText{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+}
+
+
+.addButton{
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 160, 13);
+    border-radius: 50%;
+}
+
+.removeButton{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+}
+
+
+.material-icons {
+    vertical-align: middle;
+    // padding-bottom: 7px;
+    // padding-right: 15px;
+    font-size: 80px;
+}
+

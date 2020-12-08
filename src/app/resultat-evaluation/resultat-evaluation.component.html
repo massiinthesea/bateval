@@ -1,0 +1,229 @@
+<div class="row  justify-content-md-center evalTop">
+    <div class="col-md-3 evalID">
+        <div class="row">
+            Nom de l'entreprise:   
+            <span class="nomEntreprise">
+                {{evaluation.nomEntreprise}}
+            </span>
+        </div>
+        <div class="row">
+            Réalisée le: {{evaluation.dateRealisation}}
+        </div>
+        <div class="row">
+            Note globale: {{evaluation.scoreGlobal}}%
+        </div>
+    </div>
+    <div class="col-md-4 offset-md-3 registerEvaluation">
+
+        <div class="row saveEvaluationButton" *ngIf="!evaluation.saved" (click)="evaluation.saved=!evaluation.saved">
+            <span class="material-icons">
+                save
+            </span>
+            Ajouter cette évaluation à mon historique
+        </div>
+
+        <div class="row savedEvaluationButton" *ngIf="evaluation.saved">
+            <span class="material-icons">
+                check_circle_outline
+            </span>
+            Cette évaluation est déjà enrgistrée
+        </div>
+
+        <div class="row downloadEvaluationButton">
+
+            <span class="material-icons">
+                get_app
+            </span>
+            Télécharger cette évaluation
+        </div>
+
+    </div>
+</div>
+
+
+<div class="row evalContent justify-content-md-center">
+    <div class="col-md-10 "> 
+
+        <div class="row justify-content-md-center collapsablePannel" *ngFor="let categorie of evaluation.categories">
+            <div class="col-md-10 evaluationSection">
+                <div class="row">
+                    <div class="col-md-3"> 
+                        <mwl-gauge [max]="100" [dialStartAngle]="20" [dialEndAngle]="160" [value]="categorie.scoreCategorie"
+                            [animated]="true" [animationDuration]="1">
+                        </mwl-gauge>
+                    </div>
+
+                    <div class="col-md-9"> 
+                        <div class="row nomCategorie">
+                            {{categorie.nomCategorie}}
+                        </div>
+                        <div class="row categoriePreconisation">
+                            Razfazfzafeazfzfazfa azfzfazfaazffaz fzaaaaaaaaaaa zfaezffefezezf efzfezfezfez efzezffezefzefz ezvveezvezvezv cezcecezcezzec eczcezcezcezcez ezccezcezeczcez cezeczezccezecz cezceezccezcez cezcecezcezcez cezcezcezeczcez cezeczcezcezcez cezcezcezezccez cezceeczezccez
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <mat-accordion>
+            <mat-expansion-panel hideToggle *ngFor="let categorie of evaluation.categories">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                    {{categorie.nomCategorie}}
+                    <mwl-gauge [max]="100" [dialStartAngle]="20" [dialEndAngle]="160" [value]="categorie.scoreCategorie"
+                    [animated]="true" [animationDuration]="1">
+                </mwl-gauge>
+                </mat-panel-title>
+                <mat-panel-description>
+                  This is a summary of the content
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+
+
+              <div class="row">
+                <div class="col-md-3"> 
+                    <mwl-gauge [max]="100" [dialStartAngle]="20" [dialEndAngle]="160" [value]="categorie.scoreCategorie"
+                        [animated]="true" [animationDuration]="1">
+                    </mwl-gauge>
+                </div>
+
+                <div class="col-md-9"> 
+                    <div class="row nomCategorie">
+                        {{categorie.nomCategorie}}
+                    </div>
+                    <div class="row categoriePreconisation">
+                        Razfazfzafeazfzfazfa azfzfazfaazffaz fzaaaaaaaaaaa zfaezffefezezf efzfezfezfez efzezffezefzefz ezvveezvezvezv cezcecezcezzec eczcezcezcezcez ezccezcezeczcez cezeczezccezecz cezceezccezcez cezcecezcezcez cezcezcezeczcez cezeczcezcezcez cezcezcezezccez cezceeczezccez
+                    </div>
+
+                </div>
+            </div>
+
+
+            </mat-expansion-panel>
+            <!-- <mat-expansion-panel (opened)="panelOpenState = true"
+                                 (closed)="panelOpenState = false">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Self aware panel
+                </mat-panel-title>
+                <mat-panel-description>
+                  Currently I am {{panelOpenState ? 'open' : 'closed'}}
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <p>I'm visible because I am open</p>
+            </mat-expansion-panel> -->
+          </mat-accordion>
+
+
+
+
+        
+        <!-- <div class="row justify-content-md-center">
+            <div class="col-md-10 evaluationSection">
+                <div class="row">
+                    <div class="col-md-3"> 
+                        <mwl-gauge [max]="100" [dialStartAngle]="20" [dialEndAngle]="160" [value]="evaluation.categories[4].scoreCategorie"
+                            [animated]="true" [animationDuration]="1">
+                        </mwl-gauge>
+                    </div>
+
+                    <div class="col-md-9"> 
+                        <div class="row nomCategorie">
+                            {{evaluation.categories[0].nomCategorie}}
+                        </div>
+                        <div class="row categoriePreconisation">
+                            Razfazfzafeazfzfazfa azfzfazfaazffaz fzaaaaaaaaaaa zfaezffefezezf efzfezfezfez efzezffezefzefz ezvveezvezvezv cezcecezcezzec eczcezcezcezcez ezccezcezeczcez cezeczezccezecz cezceezccezcez cezcecezcezcez cezcezcezeczcez cezeczcezcezcez cezcezcezezccez cezceeczezccez
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div> -->
+
+    </div>
+
+
+
+    
+    
+</div>
+
+
+
+
+
+
+<!-- <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>1</mat-grid-tile>
+    <mat-grid-tile>2</mat-grid-tile>
+    <mat-grid-tile>3</mat-grid-tile>
+    <mat-grid-tile>4</mat-grid-tile>
+</mat-grid-list> -->
+
+<!-- <div class="row">
+    <div class="col-md-2">
+
+        <div class="jauge-block">
+            <mwl-gauge [max]="100" [dialStartAngle]="20" [dialEndAngle]="160" [value]="72" [animated]="true"
+                [animationDuration]="1">
+            </mwl-gauge>
+        </div>
+
+    </div>
+    <div class="col-md-8">.col-md-8</div>
+</div>
+<div class="row">
+    <div class="col-md-6 offset-md-3">.col-md-6 .offset-md-3</div>
+</div>
+
+
+<div class="row categ1">
+
+
+
+
+    <div class=".col-md-3 .offset-md-5">
+        <div class="jauge-red">
+            <mwl-gauge [max]="100" [dialStartAngle]="0" [dialEndAngle]="180" [value]="22" [animated]="true"
+                [animationDuration]="1">
+            </mwl-gauge>
+        </div>
+
+    </div>
+
+</div> -->
+
+
+<!-- 
+<div class="jauge-container">  
+
+    <div class="jauge-block">
+        <mwl-gauge
+                [max]="100"
+                [dialStartAngle]="-90"
+                [dialEndAngle]="-90.001"
+                [value]="50"
+                [animated]="true"
+                [animationDuration]="1">
+        </mwl-gauge>
+    </div>
+
+    <div class="jauge-block">
+        <mwl-gauge
+            class="three"
+            [max]="100"
+            [value]="gaugeValues[1]"
+            [animated]="true"
+            [animationDuration]="2">
+        </mwl-gauge>
+    </div>
+</div> -->

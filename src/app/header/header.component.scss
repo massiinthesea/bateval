@@ -1,0 +1,72 @@
+
+
+//Tous les boutons
+.allbuttons{
+    padding-left: 12%;
+    color: white;
+    margin-top: 2%;
+    font-size: 200%;
+    text-align: left;
+}
+
+.activPageButton{
+    text-align: left;
+    width: 100%;
+    background-color:  #ff5656;
+    color: black;
+    border-radius: 0px;
+    // border: 1px solid #e2e2e2;
+}
+
+
+//Espace logo/boutons
+.homebutton{
+    margin-top: 20%;
+    // margin-right: 0px;
+}
+
+.bateval_logo{
+    width: 50%;
+    margin-top: 7%;
+}
+
+
+
+.buttonHover:hover{
+    background-color: #ff8080;
+    cursor:pointer;
+}
+//Bouton selectionné
+
+
+//ICones
+.material-icons {
+    vertical-align: middle;
+    padding-bottom: 7px;
+    padding-right: 15px;
+    font-size: 30px;
+}
+
+//Pseudo connecté
+.profileName{
+    margin-top: 20%;
+    margin-left: 17%;
+}
+
+.gestionQuestions{
+    margin-left: 15%;
+    color: black;
+    margin-top: 2%;
+    font-size: x-large;
+    text-align: left;
+    background-color:  #464646;
+    color:white;
+    width: 85%;
+    // margin-top: 20%;
+    // margin-left: 17%;
+}
+
+.allHeader{
+    height: 20% !important;
+    // position: fixed;
+}
